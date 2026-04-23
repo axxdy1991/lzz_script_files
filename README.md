@@ -1,2 +1,4 @@
 # lzz_script_files
 some script files
+fix_clangd.py 将stm32IDE中生成的compile_commands.json文件中的相对地址转化为绝对地址；
+uvConvertor.bat 在windows系统下将keil生成的.dep文件转换为compile_commands.json，用于在cursor中使用clangd插件识别。
